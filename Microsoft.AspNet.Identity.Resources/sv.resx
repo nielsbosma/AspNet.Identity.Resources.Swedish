@@ -118,13 +118,13 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="UserAlreadyInRole" xml:space="preserve">
-    <value>User already in role.</value>
+    <value>Användaren har redan denna roll. </value>
   </data>
   <data name="UserNotInRole" xml:space="preserve">
-    <value>User is not in role.</value>
+    <value>Användare har inte denna roll. </value>
   </data>
   <data name="RoleNotFound" xml:space="preserve">
-    <value>Role {0} does not exist.</value>
+    <value>Rollen {0} existerar inte.</value>
   </data>
   <data name="StoreNotIUserClaimStore" xml:space="preserve">
     <value>Store does not implement IUserClaimStore&lt;TUser&gt;.</value>
@@ -160,7 +160,7 @@
     <value>Store does not implement IUserConfirmationStore&lt;TUser&gt;.</value>
   </data>
   <data name="PasswordTooShort" xml:space="preserve">
-    <value>Passwords must be at least {0} characters.</value>
+    <value>Lösenord måste innehålla minst {0} bokstäver. </value>
   </data>
   <data name="PropertyTooShort" xml:space="preserve">
     <value>{0} cannot be null or empty.</value>
@@ -169,16 +169,16 @@
     <value>E-postadressen {0} används redan.</value>
   </data>
   <data name="UserAlreadyHasPassword" xml:space="preserve">
-    <value>User already has a password set.</value>
+    <value>Användare har redan satt ett lösenord. </value>
   </data>
   <data name="StoreNotIUserPasswordStore" xml:space="preserve">
     <value>Store does not implement IUserPasswordStore&lt;TUser&gt;.</value>
   </data>
   <data name="PasswordRequireNonLetterOrDigit" xml:space="preserve">
-    <value>Passwords must have at least one non letter or digit character.</value>
+    <value>Lösenord måste innehålla minst ett special tecken eller siffra. </value>
   </data>
   <data name="UserIdNotFound" xml:space="preserve">
-    <value>UserId not found.</value>
+    <value>Användare kan inte hittas. </value>
   </data>
   <data name="InvalidToken" xml:space="preserve">
     <value>Ogiltig token. </value>
@@ -187,7 +187,7 @@
     <value>E-postadressen '{0}' är ogiltig.</value>
   </data>
   <data name="UserNameNotFound" xml:space="preserve">
-    <value>User {0} does not exist.</value>
+    <value>Användaren {0} existerar inte.</value>
   </data>
   <data name="StoreNotIQueryableRoleStore" xml:space="preserve">
     <value>Store does not implement IQueryableRoleStore&lt;TRole&gt;.</value>
@@ -199,13 +199,13 @@
     <value>Store does not implement IUserTwoFactorStore&lt;TUser&gt;.</value>
   </data>
   <data name="PasswordRequireUpper" xml:space="preserve">
-    <value>Passwords must have at least one uppercase ('A'-'Z').</value>
+    <value>Lösenord måste innehålla minst en versal bokstav ('A'-'Z').</value>
   </data>
   <data name="PasswordRequireDigit" xml:space="preserve">
     <value>Lösenord måste innehålla minst en siffra ('0'-'9').</value>
   </data>
   <data name="PasswordRequireLower" xml:space="preserve">
-    <value>Passwords must have at least one lowercase ('a'-'z').</value>
+    <value>Lösenord måste innehålla minst en gemen bokstav  ('a'-'z').</value>
   </data>
   <data name="StoreNotIQueryableUserStore" xml:space="preserve">
     <value>Store does not implement IQueryableUserStore&lt;TUser&gt;.</value>
